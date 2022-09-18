@@ -140,10 +140,11 @@ TODO
 \section{Marking a File as Executable}
 This comes up a bunch in different sections, so I thought it best to include on it's own right at the start. This can be achieved in two ways, the first being to right click on the desired file in the file manager, then click on ``Preferences''. Now check the box next to ``Is executable'', which is shown in \textbf{Figure \ref{fig:executable}}.
 
-\begin{boxfig}
-	\includegraphics[width=\linewidth]{images/mark_executable}
-	\captionof{figure}{Permissions tab showing the ``Is executable'' checkbox.} \label{fig:executable}
-\end{boxfig}
+\begin{figure}[h]
+    \centering
+	\includegraphics[width=0.5\linewidth]{images/mark_executable}
+	\caption{Permissions tab showing the ``Is executable'' checkbox.} \label{fig:executable}
+\end{figure}
 
 A file can also be marked as executable from the command line using the \textit{chmod} command.
 
@@ -160,10 +161,11 @@ Software on Kubuntu (or any )
 \subsection{Manually}
 Updates can be installed via the ``Discover'' software centre. When updates are available an icon will appear in the system tray, which will open the updates window when clicked. Seen in \textbf{Figure \ref{fig:updates}}.
 
-\begin{boxfig}
- \includegraphics[width=\linewidth]{images/updates}
- \captionof{figure}{\textit{Main:} The update window of Discover. \textit{Inset:} The update notification icon in the system tray.}\label{fig:updates}
-\end{boxfig}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.6\linewidth]{images/updates}
+    \caption{\textit{Main:} The update window of Discover. \textit{Inset:} The update notification icon in the system tray.}\label{fig:updates}
+\end{figure}
 
 
  To update all packages from the command line, execute the following commands:
@@ -193,20 +195,23 @@ sudo apt autoclean
 
 First, make sure java is installed system wide with \texttt{sudo apt install default-jre}. Then, when double clicking the installer for OptiFine, it will initially display the error in FIG.
 
-\begin{boxfig}
- \includegraphics[width=\linewidth]{images/optifine}
- \captionof{figure}{OptiFine}
-\end{boxfig}
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.6\linewidth]{images/optifine}
+ \caption{OptiFine}
+\end{figure}
 
 \section{The Driver Manager}
 
 If a piece of hardware like a network adapter is not working, the ``Driver Manager'' located in System Settings under ``Hardware'', is a reasonable place to start looking for a solution.
 
-\begin{boxfig}
- \includegraphics[width=\linewidth]{images/driver_manager_location}
- \includegraphics[width=\linewidth]{images/driver_manager_window}
- \captionof{figure}{\textit{Top:} Location of the Driver Manager system settings module. \textit{Bottom:} The driver manager window.}\label{fig:drivers}
-\end{boxfig}
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=0.6\linewidth]{images/driver_manager_location}
+ \includegraphics[width=0.6\linewidth]{images/driver_manager_window}
+ \caption{\textit{Top:} Location of the Driver Manager system settings module. \textit{Bottom:} The driver manager window.}\label{fig:drivers}
+\end{figure}
+
 
 
 \section{Installing Windows Steam Games}
