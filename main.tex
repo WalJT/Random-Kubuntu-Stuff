@@ -221,6 +221,19 @@ sudo apt autoclean
 \subsubsection{The problem}
 
 The arduino IDE (version 2.0 AppImage) fails to read USB devices on Ubuntu 22.04
+The follwing are errors from the arduino IDE that indicate this \textbf{may} be
+the problem:
+
+\begin{lstlisting}
+avrdude: stk500v2_ReceiveMessage(): timeout
+avrdude: stk500v2_ReceiveMessage(): timeout
+avrdude: stk500v2_ReceiveMessage(): timeout
+avrdude: stk500v2_ReceiveMessage(): timeout
+avrdude: stk500v2_ReceiveMessage(): timeout
+avrdude: stk500v2_ReceiveMessage(): timeout
+avrdude: stk500v2_getsync(): timeout communicating with programmer
+Failed uploading: uploading error: exit status 1
+\end{lstlisting}
 
 \subsubsection{Debugging procedure}
 
