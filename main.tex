@@ -278,10 +278,10 @@ The output shows device immediately disconnecting.
 
 \subsubsection{The solution}
 
-Fix by dissabling BRLTTY.
+Fix by removing BRLTTY.
 
 \begin{lstlisting}[language=Bash]
-sudo systemctl disable brltty
+sudo apt remove brltty --auto-remove --purge
 \end{lstlisting}
 
 and reboot the system
