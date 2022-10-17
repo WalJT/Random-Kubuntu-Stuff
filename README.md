@@ -1,2 +1,2 @@
-# Random-Kubuntu-Stuff
+# Random-Ubuntu-Stuff
 Slightly disconnected and not particularly well organised unofficial documentation
