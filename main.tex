@@ -323,7 +323,17 @@ Settings under ``Hardware'', is a reasonable place to start looking for a soluti
 
 \subsection{Issues updating the snap store}
 
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.6\linewidth]{images/snap_error.png}
+  \caption{This notification appears when running snap refresh}
+\end{figure}
 
+Run the following command, then update snaps as normal
+
+\begin{lstlisting}
+  snap-store --quit
+\end{lstlisting}
 
 %\noindent\rule{\linewidth}{0.2ex}
 \printbibliography
